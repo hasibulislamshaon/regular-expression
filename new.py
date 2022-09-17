@@ -1,6 +1,6 @@
 import re
 lines=open('naruto.txt')
-for words in lines:
-    words=words.rstrip()
-    if re.search('A: ', words):
-     print(words)
+for word in lines:
+    word=word.rstrip()
+    if re.search('A: ', word):
+     print(word)
